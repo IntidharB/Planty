@@ -10,10 +10,11 @@ Version: 2023
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&family=Syne&display=swap');
 
 /****CSS GENERAL*****/
-body {
+html {
 	max-width: 1440px;
 	margin: auto;
-	font-family: 'Syne', sans-serif !important;
+	font-family: 'Syne';
+	font-style: normal;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 
 /*****CSS HEADER****/
 header {
-	margin: 30px 30px 30px 0px;
+	margin: 30px 0px 28px 0px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -48,15 +49,16 @@ header {
 
 .header-menu li:nth-child(2) {
 	order: 3;
-	
+
 }
 
 .header-menu li:nth-child(3) {
 	order: 2;
 }
+
 .header-menu li:nth-child(2) {
 	order: 3;
-	
+
 }
 
 .header-menu li:nth-child(3) {
@@ -80,26 +82,660 @@ header {
 
 /****CSS FOOTER****/
 .footer-menu {
+	padding: 20px 0px;
+	height: 60px;
 	text-align: center;
+
 }
 
 
 /*****CSS ACCUEIL****/
-#pp h1{
-	
-	font-family: 'Syne', sans-serif;
+#accueil-section1 {
+	background-color: #ECE2DA;
+}
+
+#accueil h1 {
+	margin: 83px 165px 0px 165px;
+	width: 781px;
+	font-family: 'Syne';
 	font-size: 38px;
-	color: green;
-	text-align: center;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-style: normal;
 	line-height: 46px;
+	text-align: center;
+	color: #3B8E46;
+
+}
+
+#accueil h2,
+#accueil-section3 h2,
+#accueil-section4 h2,
+#accueil-section4 h4 {
+	margin: 60px 0px 0px 0px;
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	color: #3B8E46;
+}
+
+#accueil p,
+#accueil-section3 p {
+	margin: 0px 0px 82px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+
+#accueil-section3 {
+	background-color: #ECE2DA;
+}
+
+#accueil-section3 h2 {
+	margin: 58px 0px 20px 0px;
+
+	font-weight: 800;
+
+	color: #D2776A;
+}
+
+#accueil-section3 p {
+	margin: 0px 0px 0px 0px;
+}
+
+#fraise h3,
+#pampleMouse h3,
+#framBoise h3,
+#citron h3 {
+	padding: 0px 49px;
+	height: 262px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 58px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+#pampleMouse h3 {
+	padding: 0px 18px;
+}
+
+#framBoise h3 {
+
+	padding: 0px 75px;
+}
+
+#citron h3 {
+	padding: 0px 36px;
+}
+
+#accueilbtn {
+	margin: 47px 465px;
+	padding: 0px 56px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 37px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	width: 198px;
+	height: 55px;
+	background: #E0B9B4;
+	border-radius: 5px;
+}
+
+#accueil-section4 h2 {
+	margin: 113px 0px 18px 0px;
+	font-weight: 800;
+
+}
+
+#accueil-section4 h4 {
+	margin: 20px 0px 0px 0px;
+}
+
+#accueil-section4 p {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color: #000000;
 }
 
 
-.imageP{
-	background-color: rgb(114, 42, 42);
-	offset-anchor: start;
-	offset-distance: -190px 0 0 135px; 
+/******CSS NOUS RENCONTRER**********/
+#rctr-section1 {
+	padding: 0px;
+	background-color: #ECE2DA;
+
+}
+
+#rctr-section1 h1 {
+
+	margin: 90px 0px 0px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 38px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: #D2776A;
+}
+
+#rctr-section1 p {
+	margin: 27px 0px 70px 0px;
+	width: 669px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+
+#rctr-section2 h2,
+#rctr-section3 h2 {
+	margin: 100px 0px 20px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	color: #000000;
+}
+
+#rctr-section2 h3 {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+
+}
+
+#rctr-section2 p {
+	margin: 0px 0px 40px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+
+#rctr-section3 {
+	background-color: #ECE2DA;
+}
+
+#rctr-section3 h2 {
+	margin: 66px 0px 0px 0px;
+}
+
+.formNC label {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000;
+}
+
+.formNC input,
+.formNC textarea {
+	margin: 13px 0px 22px 0px;
+	border: none;
+	height: 70px;
+	width: 383px;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+	border-radius: 7px;
+}
+
+.formNC textarea {
+	height: 237px;
+}
+
+.btnEnvoyer {
+	margin: 0px 0px 0px 92px !important;
+	font-weight: 400;
+	font-size: 15px;
+	width: 198px !important;
+	height: 55px;
+	background: #E0B9B4;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+/***** CSS COMMANDER*/
+#cmd-section1 {
+	background-color: #3B8E46;
+
+}
+
+#cmd-section1 h2 {
+	margin: 70px 0px 0px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 38px;
+	line-height: 46px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#cmd-section1 h3 {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: #FFFFFF;
+}
+
+#cmd-section1 h4 {
+
+	height: 178px;
+	padding: 71px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+
+.zero-ok {
+	margin: 0px 0px 30px 0px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.zeroPM {
+	display: flex;
+}
+
+.zero {
+	padding: 20px 32px;
+	width: 71px;
+	height: 56px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+	border-radius: 5px 0px 0px 5px;
+}
+
+.plus,
+.moins {
+	padding: 0px 20px;
+	width: 51px;
+	height: 28px;
+	left: 374px;
+	top: 522px;
+	background: #DC9F96;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	border-radius: 5px 0px 0px 0px;
+
+}
+
+.moins {
+	border-top: 1px solid #FFFFFF;
+	border-radius: 0px 0px 0px 5px;
+}
+
+.OK {
+	padding: 10px 50px;
+	width: 120px;
+	height: 56px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 37px;
+	color: #FFFFFF;
+
+	background: #E0B9B4;
+	border-radius: 5px;
+
+}
+
+#cmd-section2 {
+	padding: 0px 0px 93px 0px;
+	background-color: #3B8E46;
+}
+
+#cmd-section2 h2 {
+	margin: 53px 0px 29px 0px;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: #FFFFFF;
+}
+
+#cmd-section2 label {
+
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+#cmd-section2 input {
+	margin: 13px 0px 30px 0px;
+	width: 500px;
+	height: 71px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+	border-radius: 7px;
+	border: none;
+}
+
+.formCommander {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formLivraison {
+	border-left: 1px solid #FFFFFF;
+	padding-left: 60px;
+
+}
+
+.btnCommander {
+
+	margin: 50px 0px 0px 460px !important;
+	font-weight: 400;
+	font-size: 15px;
+	width: 220px !important;
+	height: 55px !important;
+	background: #E0B9B4 !important;
+	border-radius: 5px;
+	color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+/** ----------- VERSION MOBILE ET TABLETTE ----------- **/
+@media screen and (min-width: 300px)and (max-width:700px) {
+	#rctr-section1 h1 {
+		/******CSS NOUS RENCONTRER**********/
+		margin: 0px 0px 0px 15px !important;
+		font-size: 15px !important;
+	}
+
+	/**********CSS COMMANDER********/
+	#cmd-section1 h2 {
+		font-size: 22px !important;
+		margin: 20px 0px 0px 0px !important;
+	}
+
+	#cmd-section1 h3 {
+		font-size: 20px !important;
+		margin: 0px 0px 0px 75px !important;
+	}
+
+	.zero {
+		padding: 20px 103px !important;
+		width: 230px !important;
+
+
+	}
+
+	.plus,
+	.moins {
+		padding: 0px 60px !important;
+
+		width: 120px !important;
+	}
+
+	.OK {
+		padding: 10px 160px !important;
+	}
+
+	.formCommander {
+		padding-left: 0px !important;
+	}
+
+	#cmd-section2 input {
+		width: 350px !important;
+	}
+
+	.btnCommander {
+		margin: 0px 0px 0px 0px !important;
+	}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	header {
+		margin: 8px 28px 5px 0px;
+	}
+
+	.header-menu {
+		font-size: 11px;
+
+	}
+
+	.header-menu li {
+		margin: 3px 6px;
+	}
+
+	#logo img {
+		width: 101px;
+		height: 19px;
+	}
+
+	#menu-item-115 a {
+		padding: 10px 10px;
+		margin-right: -34px;
+	}
+
+	/*****CSS ACCUEIL****/
+	#accueil h1 {
+		margin: 60px 0px 0px 0px;
+		width: 350px;
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+	#accueil h2,
+	#accueil-section3 h2,
+	#accueil-section4 h2 {
+		margin: 40px 0px 0px 0px;
+		font-size: 13px;
+		line-height: 10px;
+	}
+
+	#accueil p,
+	#accueil-section3 p,
+	#accueil-section4 p {
+		margin: 0px 0px 10px 0px;
+		font-size: 12px;
+		line-height: 20px;
+
+	}
+
+	#fraise h3,
+	#pampleMouse h3,
+	#framBoise h3,
+	#citron h3 {
+		padding: 0px 49px;
+		height: 262px;
+
+		font-size: 28px;
+		line-height: 30px;
+
+	}
+
+	#accueilbtn {
+		margin: 30px 300px;
+	}
+
+	#accueil-section4 h4 {
+		margin: 0px 0px 0px 0px;
+		font-size: 13px;
+		line-height: 10px;
+	}
+
+	#accueil-section4 p {
+		line-height: 15px;
+	}
+
+
+	/******CSS NOUS RENCONTRER**********/
+	#rctr-section1 h1 {
+		margin: 30px 0px 0px 100px;
+		font-size: 18px;
+		line-height: 26px;
+
+	}
+
+	#rctr-section1 p {
+		margin: 17px 0px 40px 0px;
+		width: auto;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	#rctr-section2 h2,
+	#rctr-section3 h2 {
+		margin: 50px 0px 0px 0px;
+		font-size: 20px;
+	}
+
+	#rctr-section2 h3 {
+		font-size: 19px;
+	}
+
+	#rctr-section2 p {
+		font-size: 15px;
+	}
+
+	.formNC label {
+		margin: 13px 0px 22px 25px;
+		font-size: 15px;
+	}
+
+	.formNC input {
+		margin: 13px 0px 22px 25px;
+		height: 60px;
+		width: 283px;
+
+	}
+
+	.formNC textarea {
+		margin: 13px 0px 22px 25px;
+		height: 180px;
+		width: 283px;
+	}
+
+	.btnEnvoyer {
+		margin: 0px 0px 0px 75px !important;
+	}
+
+	/**********CSS COMMANDER********/
+	.zero-ok {
+		margin: 0px 0px 10px 0px;
+		display: block;
+	}
+
+	.zero {
+		padding: 20px 32px;
+		width: 110px;
+		height: 56px;
+
+	}
+
+	.plus,
+	.moins {
+		padding: 0px 20px;
+		width: 70px;
+		height: 28px;
+
+	}
+
+	.OK {
+		margin-top: 10px;
+		padding: 10px 75px;
+		width: 100%;
+	}
+
+
+	#cmd-section2 input {
+		width: 535px;
+		height: 50px;
+
+	}
+
+	.formCommander {
+		padding-left: 140px;
+		display: block;
+
+	}
+
+	.formLivraison {
+		border-left: none;
+		padding-left: 0px;
+
+	}
+
+	.btnCommander {
+
+		margin: 50px 0px 0px 300px;
+		font-weight: 400;
+
+	}
 }
